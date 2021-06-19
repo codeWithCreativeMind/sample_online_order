@@ -1,0 +1,48 @@
+
+h1{
+  font-size: 3rem;
+}
+.card_header{
+    border:2px solid white;
+    width: 270px;
+    height:280px;
+    list-style-type: none;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px rgb(209, 202, 202);
+    overflow: hidden;
+}
+.left{
+    float:left;
+}
+.right{
+    margin-left: 20rem;
+}
+.bottom_left{
+    float:left;
+  
+}
+.bottom_right{
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+.card_img1,.card_img2,.bottom_img1,.bottom_img2{
+    width:200px;
+    height:200px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-left: 2rem;
+    margin-top: 1rem;
+   
+}
+h5{
+   text-align: center;
+}
+.paragraph{
+    width: 700px;
+}
+.line{
+    width: 100px;
+    background-color:red;
+    float: left;
+    height:1px;
+}
